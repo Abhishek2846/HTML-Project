@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fcfaf7;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: linear-gradient(45deg, rgb(247, 189, 81), white, lightgreen);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .II {
+    font-size: 3.5em;
+    font-family:'Arial Narrow Bold';
+    color: #e64a19;
+}
+
+.otherPages a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.otherPages a:hover {
+    color: rgb(247, 189, 81);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.content {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.title {
+    font-size: 44px;
+    text-align: center;
+    color: #d84315;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.subheading {
+    font-size: 34px;
+    text-align: center;
+    color: #6a0572;
+    margin-top: 30px;
+}
+
+img {
+    width: 85%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out, filter 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    filter: brightness(1.1);
+}
+
+.footer {
+    background: linear-gradient(45deg, rgb(247, 189, 81), white, lightgreen);
+    color: #7f1d1d;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.4em;
+    margin-top: 30px;
+    transition: background 0.3s ease-in-out;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: rgb(247, 189, 81);
+    text-decoration: underline;
+}

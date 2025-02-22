@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form">
+        <h3>Student Registration Form</h3>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="firstName">First Name:</label></td>
+                    <td><input type="text" id="firstName" placeholder="Enter your first name"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" placeholder="Enter your password"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="state">State:</label></td>
+                    <td>
+                        <select id="state">
+                            <option value="">Select your state</option>
+                            <!-- Add state options here -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="newsletter">Subscribe to Newsletter:</label></td>
+                    <td><input type="checkbox" id="newsletter"></td>
+                </tr>
+                <tr>
+                    <td><label for="resume">Upload Resume:</label></td>
+                    <td><input type="file" id="resume"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><textarea id="address" placeholder="Enter your full address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="interviewTime">Preferred Interview Time:</label></td>
+                    <td><input type="time" id="interviewTime"></td>
+                </tr>
+                <tr>
+                    <td><label for="marks">Marks:</label></td>
+                    <td><input type="number" id="marks" placeholder="Enter your marks"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
