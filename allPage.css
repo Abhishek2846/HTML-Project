@@ -101,3 +101,32 @@ img:hover {
     color: rgb(247, 189, 81);
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    .header {
+        padding: 15px;
+    }
+    .header .II {
+        font-size: 2em;
+    }
+    .otherPages a {
+        font-size: 1em;
+        margin: 0 8px;
+    }
+    .content {
+        padding: 20px;
+        margin-top: 100px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .subheading {
+        font-size: 24px;
+    }
+    img {
+        width: 95%;
+    }
+    .footer {
+        font-size: 1.2em;
+    }
+}
+
